@@ -17,10 +17,6 @@ git clone https://github.com/omar0930/GridWorld-MDP-Simulator.git
 cd GridWorld-MDP-Simulator
 ```
 
-Install the required dependencies:
-```bash
-pip install -r requirements.txt
-```
 
 ## Dataset
 The simulator does not rely on an external dataset. Instead, it generates a grid-based environment dynamically based on user-defined configurations in `config.py`. Users can specify grid size, reward structure, and transition probabilities to create different scenarios.
